@@ -50,14 +50,15 @@ Framework de comunicação com integração chat | vídeo | voz.
 
 ## Configurando extensions
 
-- extensions.conf
-- exten => 2424,1,NoOp("descrição") // log
-- exten => 2424,2,Playback(tt-monkeys) // toca audio de macaco
-- dialplan reload na CLI asterisk para efetivar as mudanças
+- Acessar o arquivo extensions.conf
+- Criar um novo contexto `[ramais]`
+- `exten => 2424,1,NoOp("descrição")` // log
+- `exten => 2424,2,Playback(tt-monkeys)` // toca audio de macaco
+- `dialplan reload` na CLI asterisk para efetivar as mudanças
 
 ### Boas práticas
 
-- same => n,NoOp("utilizar o same para agrupar hosts baseado na prioridade 1") // n(pode ser definido um nome para referência futura)
+- `same => n,NoOp("utilizar o same para agrupar hosts baseado na prioridade 1")` // n(pode ser definido um nome para referência futura)
 
 ## Conectando ramal
 
