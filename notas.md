@@ -2,9 +2,9 @@
 
 ## Login SSH
 
-- ip: 192.168.2.12
-- user: root
-- password: mvsp123@
+- ip: SeuIp
+- user: SeuNomeDeUsuario
+- password: SuaSenha
 
 ## Asterisk
 
