@@ -17,7 +17,8 @@ Framework de comunicação com integração chat | vídeo | voz.
 ## Configuração
 
 - Desabilitar selinux
-- Instalar dependências
+- Realizar o download da versão 16.28.0 LTS do Asterisk
+- Extrair o tar utilizando `tar xzfv nome_do_arquivo`
 - ./configure --with-jansson-bundled --with-pjproject-bundled
 - Build: make && make install
 - Depois da build e instalação: make config e make samples
