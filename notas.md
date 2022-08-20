@@ -17,16 +17,18 @@ Framework de comunicação com integração chat | vídeo | voz.
 ## Configuração
 
 - Desabilitar selinux
-- Realizar o download da versão 16.28.0 LTS do Asterisk
+- Realizar o download da versão `16.28.0 LTS` do Asterisk
 - Extrair o tar utilizando `tar xzfv nome_do_arquivo`
+- Entrar no diretório utilizando o comando `cd nome_do_diretório`
 - ./configure --with-jansson-bundled --with-pjproject-bundled
-- Build: make && make install
-- Depois da build e instalação: make config e make samples
-- Startar o serviço do Asterisk: service start asterisk
+  - Se o seguinte comando retornar algum erro, talvez seja necessário instalar algumas depêndencias de build. As depêndencias podem variar entre sistemas, porém a CLI provém informações detalhadas sobre como prosseguir
+- Para realizar o processo de build: `make && make install`
+- Depois da build e instalação: `make config` e `make samples`
+- Startar o serviço do Asterisk: `service start asterisk`
 
 ## Iniciando a CLI
 
-- asterisk -r ou rasterisk
+- `asterisk -r` ou `rasterisk`
 
 ## Configurando sip
 
