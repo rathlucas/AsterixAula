@@ -2,9 +2,9 @@
 
 ## Dados conexão com o tronco
 
-- IP Proxy: 192.168.2.9
+- IP Proxy:
 - Usuário: 5511523200XX (XX -> Final do seu IP)
-- Senha: 123123
+- Senha:
 
 ## Realizar a configuração
 
